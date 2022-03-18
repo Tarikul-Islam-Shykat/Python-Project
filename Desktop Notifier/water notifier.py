@@ -9,7 +9,7 @@ worked = False
 
 while (worked == False):
     now  = tm.gmtime()
-    print("checking")
+    #print("checking")
     hour = now[3]
     minute = now[4]
     if((hour == 20) and (minute == 59)):
